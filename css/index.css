@@ -390,13 +390,22 @@ input[type=number]::-webkit-outer-spin-button,input[type=number] {
 }
 
 footer{ 
+    margin: 5%;
+    
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-wrap: wrap;
     background: linear-gradient(261.57deg, rgba(0, 111, 237, 0.12) 18.01%, rgba(179, 214, 255, 0.12) 90.03%);
-    width: 100%;
-    padding: 5%;
+    width: 90%;
+    padding: 10%;
+    padding-top: 5%;
     display: flex;
     font-size: 18px;
     flex-direction: row;
     column-gap: 100px;
+    border-radius: 10px;
+    padding-bottom: 0;
 }
 
 .footer-logo{
@@ -404,7 +413,8 @@ footer{
 }
 
 .contact{
-    line-height: 30px;
+    line-height: 40px;
+   text-wrap: nowrap;
 }
 
 .faint-text{
@@ -418,7 +428,6 @@ a{
 
 .s1,.s3{
     width: 30%;
-   
 }
 .s2{
     display: flex;
@@ -428,4 +437,34 @@ a{
     justify-content: flex-start;
     justify-self: center;
     margin-left: 100px;
+}
+
+.s3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-self: center;
+    row-gap: 20px;
+}
+
+.for-gap{
+    display: flex;
+    column-gap: 20px;    
+}
+
+
+.svg-icon1{
+    width: 16px;
+    height: 16px;
+}
+.svg-icon2{
+    width: 40px;
+}
+
+#bottom{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin:0 0 40px 0;
 }
