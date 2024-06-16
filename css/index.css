@@ -661,7 +661,8 @@ a {
 
     .yt-video {
         margin-top: 20px;
-        aspect-ratio: 16/9;
+        width: 70vw;
+        height: auto;
         margin-bottom: 0px;
     }
 
