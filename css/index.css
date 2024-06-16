@@ -663,4 +663,15 @@ align-items: center;
         justify-self: center;
         justify-content: center;
     }
+    iframe{
+        width: 70vw;
+        height: auto;
+    }
+    .pharma-right{
+        padding: 0px 20%;
+        text-wrap: wrap;
+    }
+    .symbol{
+        width: 45px;
+    }
 }
