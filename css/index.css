@@ -537,7 +537,7 @@ align-items: center;
     align-items: center;
     margin-top: 100px;
     width: 80%;
-    height: 450px;
+    height:auto;
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgb(227, 225, 225);
     border-radius: 20px;
@@ -630,3 +630,26 @@ align-items: center;
     display: none;
 }
 
+@media (max-width:768px) {
+    .container2{
+        flex-direction: column;
+    }
+    .con2img{
+        width: 100vw;
+    }
+    .pharma-card{
+        width: 90vw;
+        flex-direction: column;
+    }
+    .yt-video{
+        width: 70vw;
+    }
+    .faq-container{
+        width:90vw;
+    }
+    footer{
+        width: 90vh;
+        column-gap: 20px;
+        flex-wrap: wrap;
+    }
+}
