@@ -635,7 +635,8 @@ align-items: center;
         flex-direction: column;
     }
     .con2img{
-        width: 100vw;
+        margin-left: 20px;
+        width: 90vw;
     }
     .pharma-card{
         width: 90vw;
@@ -643,6 +644,7 @@ align-items: center;
     }
     .yt-video{
         width: 70vw;
+        margin-top: 20px;
     }
     .faq-container{
         width:90vw;
@@ -672,6 +674,12 @@ align-items: center;
         padding: 0;
         text-wrap: wrap;
     }
+    .pharma-right,.pharma-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .symbol{
         width: 45px;
     }
@@ -680,7 +688,7 @@ align-items: center;
     }
     .form-div{
         width: 90vw;
-        flex-direction: row;
+        flex-direction: column;
         column-gap:50px;
     }
     form{
@@ -701,7 +709,7 @@ align-items: center;
     }
     
     .navbar{
-        justify-content: space-between;
+        justify-content: space-evenly;
         position: sticky;
     }
 .mid-heading{
@@ -719,5 +727,8 @@ align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.bottom{
+    margin-top: 10px;
 }
 }
