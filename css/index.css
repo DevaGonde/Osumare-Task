@@ -699,4 +699,25 @@ align-items: center;
     #msg{
         width: 250px;
     }
+    
+    .navbar{
+        justify-content: space-between;
+        position: sticky;
+    }
+.mid-heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.content-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 }
