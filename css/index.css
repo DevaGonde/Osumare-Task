@@ -637,7 +637,6 @@ a {
     cursor: pointer;
 }
 
-.video-btn:hover {}
 
 #second,
 #third {
@@ -661,7 +660,7 @@ a {
 
     .yt-video {
         margin-top: 20px;
-        width: 70vw;
+        width: 80vw;
         height: auto;
         margin-bottom: 0px;
     }
@@ -691,7 +690,7 @@ a {
     }
 
     .driving-card{
-        width: 70%;
+        width: 80%;
     }
     iframe {
         width: 80vw;
@@ -780,7 +779,9 @@ a {
 
     .contact {
         display: flex;
+        flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
 
     .container {
@@ -798,12 +799,14 @@ a {
     .btn {
         width: 300px;
         display: flex;
+        padding: 10px 20px;
         justify-self: center;
     }
 
     .pharma-right-bottom {
-        margin-top: 20px;
+        margin-top: 5px;
         margin-left: 0;
         padding: inherit;
+        text-wrap: wrap;
     }
 }
