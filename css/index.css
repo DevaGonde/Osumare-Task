@@ -18,6 +18,7 @@
 .line-height30 {
     line-height: 30px;
 }
+
 .line-height45 {
     line-height: 45px;
 }
@@ -327,11 +328,11 @@
 
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     column-gap: 50px;
-    padding:50px;
+    padding: 50px;
     display: flex;
     align-self: center;
     margin: 50px;
@@ -342,23 +343,24 @@ form{
     height: auto;
 }
 
-input{
+input {
     width: 380px;
-    height:44px ;
+    height: 44px;
     border-radius: 4px;
     border: 1px solid #C7C7C7;
-    padding:8px 12px 8px 12px;
+    padding: 8px 12px 8px 12px;
     font-size: 16px;
-    border-width:1.5px;
+    border-width: 1.5px;
 }
 
-input:focus, #msg:focus{
-    border-width:1.5px;
-    border-color:gray ;
+input:focus,
+#msg:focus {
+    border-width: 1.5px;
+    border-color: gray;
     outline: none;
 }
 
-.form-div{
+.form-div {
     font-size: 16px;
     /* display: flex;
     justify-content: center;
@@ -367,6 +369,7 @@ input:focus, #msg:focus{
     display: flex;
     column-gap: 50px;
 }
+
 #msg {
     width: 380px;
     height: 220px;
@@ -375,22 +378,24 @@ input:focus, #msg:focus{
     padding: 8px 12px 8px 12px;
     font-size: 16px;
 }
-.right-form{
+
+.right-form {
     display: flex;
     flex-direction: column;
     row-gap: 0;
 }
 
 /* For Webkit browsers (Chrome, Safari, etc.) */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button,input[type=number] { 
-    -webkit-appearance: none; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input[type=number] {
+    -webkit-appearance: none;
     -moz-appearance: textfield;
     appearance: none;
-    margin: 0; 
+    margin: 0;
 }
 
-footer{ 
+footer {
     display: flex;
     align-self: center;
     justify-self: center;
@@ -406,38 +411,40 @@ footer{
     padding-bottom: 0;
 }
 
-.footer-logo{
+.footer-logo {
     width: 150px;
 }
 
-.contact{
+.contact {
     line-height: 40px;
-   text-wrap: nowrap;
+    text-wrap: nowrap;
 }
 
-.faint-text{
+.faint-text {
     font-weight: 300;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-.s1,.s3{
+.s1,
+.s3 {
     width: 30%;
 }
-.s2{
+
+.s2 {
     display: flex;
     flex-direction: column;
-    width:20%;
+    width: 20%;
     height: auto;
     justify-content: flex-start;
     justify-self: center;
     margin-left: 100px;
 }
 
-.s3{
+.s3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -445,29 +452,30 @@ a{
     row-gap: 20px;
 }
 
-.for-gap{
+.for-gap {
     display: flex;
-    column-gap: 20px;    
+    column-gap: 20px;
 }
 
 
-.svg-icon1{
+.svg-icon1 {
     width: 16px;
     height: 16px;
 }
-.svg-icon2{
+
+.svg-icon2 {
     width: 40px;
 }
 
-#bottom{
+#bottom {
     display: flex;
     justify-content: center;
     align-self: center;
     text-align: center;
-    margin:0 0 40px 0;
+    margin: 0 0 40px 0;
 }
 
-.questions{
+.questions {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -486,14 +494,17 @@ a{
     display: flex;
     flex-direction: column;
 }
+
 .faq-item {
     border-bottom: 1px solid #ddd;
     overflow: hidden;
     transition: all 0.3s ease;
 }
+
 .faq-item:last-child {
     border-bottom: none;
 }
+
 .faq-question {
     padding: 20px;
     cursor: pointer;
@@ -503,9 +514,11 @@ a{
     background: #f9f9f9;
     transition: background 0.3s ease;
 }
+
 .faq-question:hover {
     background: #f1f1f1;
 }
+
 .faq-answer {
     max-height: 0;
     padding: 0 20px;
@@ -513,48 +526,51 @@ a{
     transition: max-height 0.3s ease;
     background: #fff;
 }
+
 .faq-answer p {
     margin: 10px 0;
     padding: 0;
 }
+
 .faq-question span {
     transition: transform 0.3s ease;
 }
+
 .faq-question span.open {
     transform: rotate(180deg);
 }
 
-.pharma{
-display: flex;
-justify-content: center;   
-flex-direction: column; 
-align-items: center;
+.pharma {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.pharma-card{
-    padding:0 5%;
+.pharma-card {
+    padding: 0 5%;
     display: flex;
     align-items: center;
     margin-top: 50px;
     width: 80%;
-    height:fit-content;
+    height: fit-content;
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgb(227, 225, 225);
     border-radius: 20px;
 }
 
-.yt-video{
+.yt-video {
     height: 400px;
     width: 400px;
     border-radius: 20px;
 }
 
-.pharma-left{
+.pharma-left {
     display: flex;
     justify-content: center;
 }
 
-.pharma-right{
+.pharma-right {
     display: flex;
     flex-direction: column;
     height: 500px;
@@ -564,93 +580,96 @@ align-items: center;
     justify-content: center;
 }
 
-.pharma-img{
+.pharma-img {
     width: 100px;
     border-radius: 50%;
 }
 
-.pharma-text{
+.pharma-text {
     font-size: 24px;
     text-align: center;
     justify-self: center;
     color: rgb(69, 67, 67);
 }
 
-.pharma-right-top{
+.pharma-right-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.pharma-top-top{
+.pharma-top-top {
     column-gap: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.symbol-div
-{
+.symbol-div {
     display: flex;
     text-align: start
 }
-.symbol{
+
+.symbol {
     width: 64px;
     color: #0077ff;
-    
+
 }
 
-.pharma-card-heading{
+.pharma-card-heading {
     font-size: 20px;
 }
 
-.pharma-right-bottom{
-    
+.pharma-right-bottom {
     margin-top: 30px;
     margin-left: 20px;
+    text-wrap: wrap;
 }
 
-.btns{
-   margin: 10px;
-   gap: 50px;
+.btns {
+    margin: 10px;
+    gap: 50px;
 }
 
-.video-btn{
+.video-btn {
     width: 60px;
     height: 60px;
     cursor: pointer;
 }
 
-.video-btn:hover{
-    
-}
+.video-btn:hover {}
 
-#second, #third{
+#second,
+#third {
     display: none;
 }
 
 @media (max-width:768px) {
-    .container2{
+    .container2 {
         flex-direction: column;
     }
-    .con2img{
+
+    .con2img {
         margin-left: 20px;
         width: 90vw;
     }
-    .pharma-card{
+
+    .pharma-card {
         width: 90vw;
         flex-direction: column;
     }
-    .yt-video{
-        width: 70vw;
+
+    .yt-video {
         margin-top: 20px;
-        aspect-ratio:  16/9;
-        margin-bottom: 20px;
+        aspect-ratio: 16/9;
+        margin-bottom: 0px;
     }
-    .faq-container{
-        width:90vw;
+
+    .faq-container {
+        width: 90vw;
     }
-    footer{
+
+    footer {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -661,96 +680,125 @@ align-items: center;
         align-self: center;
         height: auto;
     }
-    .s1,.s2,.s3{
+
+    .s1,
+    .s2,
+    .s3 {
         width: 90vw;
         justify-self: center;
         justify-content: center;
     }
-    iframe{
+
+    iframe {
         width: 80vw;
         height: auto;
         aspect-ratio: 16/9;
     }
-    .pharma-right,.pharma-top-top,.pharma-text{
+
+    .pharma-right,
+    .pharma-top-top,
+    .pharma-text {
         padding: 0;
         text-wrap: wrap;
     }
-    .pharma-right,.pharma-text{
+
+    .pharma-right,
+    .pharma-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .pharma-text{
+
+    .pharma-text {
         text-wrap: wrap;
     }
-    .symbol{
+
+    .symbol {
         width: 45px;
     }
-    #front_img{
+
+    #front_img {
         width: 90vw;
     }
-    .form-div{
+
+    .form-div {
         width: 90vw;
         flex-direction: column;
-        column-gap:50px;
+        column-gap: 50px;
     }
-    form{
-        padding:20pxpx;
+
+    form {
+        padding: 20pxpx;
         align-self: center;
         margin: 0;
         width: 90vw;
         max-width: 900px;
     }
-    input{
+
+    input {
         width: 280px;
         border: 1px solid #C7C7C7;
-        padding:4px 7px 4px 7px;
+        padding: 4px 7px 4px 7px;
     }
-    
-    #msg{
+
+    #msg {
         width: 280px;
     }
-    
-    .navbar{
+
+    .navbar {
         justify-content: space-evenly;
         position: sticky;
     }
-.mid-heading{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
 
-.footer-logo{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-}
-.content-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.bottom{
-    margin-top: 10px;
-}
-.contact{
-  display: flex;
-  justify-content: center;
-}
-.container{
-    padding-top: 100px;
-}
-.con2-data {
-    margin-right: 5%;
-}
-.service-card {
-    width: 300px;
-}
-.btn{
-    width: 300px;
-    display: flex;
-    justify-self: center;
-}
+    .mid-heading {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .content-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bottom {
+        margin-top: 10px;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        padding-top: 100px;
+    }
+
+    .con2-data {
+        margin-right: 5%;
+    }
+
+    .service-card {
+        width: 300px;
+    }
+
+    .btn {
+        width: 300px;
+        display: flex;
+        justify-self: center;
+    }
+
+    .pharma-right-bottom {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: inherit;
+    }
 }
