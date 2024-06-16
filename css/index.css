@@ -683,6 +683,13 @@ align-items: center;
         flex-direction: column;
         column-gap:50px;
     }
+    form{
+        padding:20pxpx;
+        align-self: center;
+        margin: 0;
+        width: 90vw;
+        max-width: 900px;
+    }
     input{
         width: 200px;
         border: 1px solid #C7C7C7;
