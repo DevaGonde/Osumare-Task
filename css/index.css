@@ -654,9 +654,11 @@ align-items: center;
         column-gap: 20px;
         row-gap: 20px;
         justify-self: center;
+        height: auto;
     }
     .s1,.s2,.s3{
-        width: 90%;
+        width: 80vw;
         justify-self: center;
+        justify-content: center;
     }
 }
