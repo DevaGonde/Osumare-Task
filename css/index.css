@@ -664,14 +664,19 @@ align-items: center;
         justify-content: center;
     }
     iframe{
-        width: 70vw;
+        width: 80vw;
         height: auto;
+        aspect-ratio: 16/9;
     }
-    .pharma-right{
+    .pharma-right,.pharma-top-top,.pharma-text{
         padding: 0px 20%;
         text-wrap: wrap;
     }
     .symbol{
         width: 45px;
     }
+    .front_img{
+        width: 90vw;
+    }
+  
 }
