@@ -645,6 +645,7 @@ align-items: center;
         width: 70vw;
         margin-top: 20px;
         aspect-ratio:  16/9;
+        margin-bottom: 20px;
     }
     .faq-container{
         width:90vw;
@@ -680,6 +681,9 @@ align-items: center;
         justify-content: center;
         align-items: center;
     }
+    .pharma-text{
+        text-wrap: wrap;
+    }
     .symbol{
         width: 45px;
     }
@@ -699,13 +703,13 @@ align-items: center;
         max-width: 900px;
     }
     input{
-        width: 250px;
+        width: 280px;
         border: 1px solid #C7C7C7;
         padding:4px 7px 4px 7px;
     }
     
     #msg{
-        width: 250px;
+        width: 280px;
     }
     
     .navbar{
@@ -730,5 +734,23 @@ align-items: center;
 }
 .bottom{
     margin-top: 10px;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+}
+.container{
+    padding-top: 100px;
+}
+.con2-data {
+    margin-right: 5%;
+}
+.service-card {
+    width: 300px;
+}
+.btn{
+    width: 300px;
+    display: flex;
+    justify-self: center;
 }
 }
