@@ -675,8 +675,17 @@ align-items: center;
     .symbol{
         width: 45px;
     }
-    .front_img{
+    #front_img{
         width: 90vw;
     }
-  
+    .form-div{
+        width: 90vw;
+        flex-direction: column;
+        column-gap:50px;
+    }
+    input{
+        width: 200px;
+        border: 1px solid #C7C7C7;
+        padding:4px 7px 4px 7px;
+    }
 }
