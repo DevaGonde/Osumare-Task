@@ -652,7 +652,7 @@ align-items: center;
         flex-direction: column;
         width: 90vh;
         column-gap: 20px;
-        flex-wrap: wrap;
+        row-gap: 20px;
     }
     .s1,.s2,.s3{
         width: 90%;
