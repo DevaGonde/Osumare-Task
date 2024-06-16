@@ -532,12 +532,12 @@ align-items: center;
 }
 
 .pharma-card{
-    padding: 5%;
+    padding:0 5%;
     display: flex;
     align-items: center;
     margin-top: 100px;
     width: 80%;
-    height:auto;
+    height:fit-content;
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgb(227, 225, 225);
     border-radius: 20px;
@@ -651,7 +651,7 @@ align-items: center;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 90vw;
+        width: 100vw;
         column-gap: 20px;
         row-gap: 20px;
         justify-self: center;
@@ -659,7 +659,7 @@ align-items: center;
         height: auto;
     }
     .s1,.s2,.s3{
-        width: 80vw;
+        width: 90vw;
         justify-self: center;
         justify-content: center;
     }
@@ -669,7 +669,7 @@ align-items: center;
         aspect-ratio: 16/9;
     }
     .pharma-right,.pharma-top-top,.pharma-text{
-        padding: 0px 20%;
+        padding: 0;
         text-wrap: wrap;
     }
     .symbol{
@@ -680,7 +680,7 @@ align-items: center;
     }
     .form-div{
         width: 90vw;
-        flex-direction: column;
+        flex-direction: row;
         column-gap:50px;
     }
     form{
@@ -691,8 +691,12 @@ align-items: center;
         max-width: 900px;
     }
     input{
-        width: 200px;
+        width: 250px;
         border: 1px solid #C7C7C7;
         padding:4px 7px 4px 7px;
+    }
+    
+    #msg{
+        width: 250px;
     }
 }
