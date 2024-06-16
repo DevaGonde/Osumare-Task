@@ -653,6 +653,7 @@ align-items: center;
         width: 90vh;
         column-gap: 20px;
         row-gap: 20px;
+        justify-self: center;
     }
     .s1,.s2,.s3{
         width: 90%;
