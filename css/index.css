@@ -648,8 +648,14 @@ align-items: center;
         width:90vw;
     }
     footer{
+        justify-content: center;
+        flex-direction: column;
         width: 90vh;
         column-gap: 20px;
         flex-wrap: wrap;
+    }
+    .s1,.s2,.s3{
+        width: 90%;
+        justify-self: center;
     }
 }
